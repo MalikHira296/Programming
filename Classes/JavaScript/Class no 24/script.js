@@ -23,6 +23,18 @@ console.log(item)
 
 
 
+var listOfLaptops = {
+    company: "dell",
+    color: "green",
+    RAM: "16GB"
+}
+
+for(let item in listOfLaptops){
+console.log(item)
+}
+
+
+
 
 // for(i=0;i < Object.keys(listOfLaptops).length;i++){
 //     console.log(listOfLaptops[keys])
